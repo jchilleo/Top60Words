@@ -64,7 +64,7 @@ public class Top60 {
 	 */
 	private void findTop60Words(){
 		java.util.Collections.sort(wordList);
-		for(int i = 0; i<= 200; i++){
+		for(int i = 0; i<= 60; i++){
 			top60Words.add(wordList.get(i));
 		}
 	}
