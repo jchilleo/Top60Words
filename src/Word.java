@@ -43,7 +43,10 @@ public class Word implements Comparable<Word>{
 	}
 	@Override
 	public int compareTo(Word o) {
-		return -1*((Integer)occurrence).compareTo(o.occurrence); //for descending order
+		if(((Integer)occurrence).compareTo(o.occurrence) == 0){
+			return 1*name.compareTo(o.name);
+		}
+		else {return -1*((Integer)occurrence).compareTo(o.occurrence);} //for descending order
 	}
 	
 	public double getPercentage(){
