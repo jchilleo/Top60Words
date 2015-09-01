@@ -1,4 +1,8 @@
-
+/**
+ * 
+ * @author JustinChilleo
+ *
+ */
 public class Word implements Comparable<Word>{
 	private String name = "";
 	private int occurrence;

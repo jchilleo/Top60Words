@@ -1,7 +1,11 @@
 import java.util.Scanner;
 import java.util.ArrayList;
 import static java.lang.System.out;
-
+/**
+ * 
+ * @author JustinChilleo
+ *
+ */
 
 public class Top60 {
 	ArrayList<Word> wordList = new ArrayList<Word>();
